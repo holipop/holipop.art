@@ -10,7 +10,7 @@ function main () {
         img.src = "../images/construction_bunny_bonk.png"
 
         setTimeout(() => {
-            img.src = "../images/construction_bunny.png"
+            img.src = "./images/construction_bunny.png"
         }, BONK_LENGTH)
     })
 
