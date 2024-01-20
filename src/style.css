@@ -2,14 +2,54 @@
 :root {
     --bg-color: #ffdcdc;
     --main-color: #fb6089;
-
-    border: 1px solid red;
+    --dark-color: #ce6c71;
 
     background-color: var(--bg-color);
-    color: var(--main-color)
+    color: var(--main-color);
 }
 
 .flip {
     background-color: var(--main-color);
     color: var(--bg-color)
+}
+
+body {
+    height: 95vh;
+    display: grid;
+    place-items: center;
+}
+.bonk-wip {
+    height: 20rem;
+    display: grid;
+    place-items: center;
+}
+.bonk-wip p {
+    width: 100%;
+    margin: 0;
+    align-self: start;
+    pointer-events: none;
+
+    color: var(--dark-color);
+    font-family: "Atkinson Hyperlegible";
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.bonk-wip img {
+    position: relative;
+    height: 10rem;
+    aspect-ratio: 567 / 386;
+}
+.bonk-wip p.prompt {
+    align-self: end;
+
+    font-weight: normal;
+    font-size: 1.25rem;
 }
