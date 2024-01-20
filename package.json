@@ -1,0 +1,23 @@
+{
+  "name": "holipop.art",
+  "version": "0.0.1",
+  "description": "My website!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holipop/holipop.art.git"
+  },
+  "author": "Sunny Holiday",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holipop/holipop.art/issues"
+  },
+  "homepage": "https://github.com/holipop/holipop.art#readme",
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "jquery": "^3.7.1"
+  }
+}
