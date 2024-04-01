@@ -27,34 +27,6 @@
   src: url(https://fonts.gstatic.com/s/atkinsonhyperlegible/v11/9Bt73C1KxNDXMspQ1lPyU89-1h6ONRlW45G8WbcNcw.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Philosopher';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/philosopher/v19/vEFX2_5QCwIS4_Dhez5jcWBrT0g.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Philosopher';
-  font-style: italic;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/philosopher/v19/vEFK2_5QCwIS4_Dhez5jcWBrd_QZ8tI.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Philosopher';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/philosopher/v19/vEFV2_5QCwIS4_Dhez5jcVBp.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Philosopher';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/philosopher/v19/vEFI2_5QCwIS4_Dhez5jcWjVamgc.ttf) format('truetype');
-}
-@font-face {
   font-family: 'Libre Franklin';
   font-style: italic;
   font-weight: 100;
