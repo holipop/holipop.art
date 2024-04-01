@@ -1,23 +1,21 @@
 // holipop.art
 // Sunny Holiday 2022
 
-window.addEventListener('click', bonkAnimation)
-window.addEventListener('click', updateScore)
+async function main () {
+    const response = await fetch('./templates/head.hbs')
+    const content = await response.text()
+    const template = Handlebars.compile(content)
 
-function bonkAnimation () {
-    const BONK_LENGTH = 50 // ms
-    const img = document.querySelector('[data-bonk]')
-    img.src = './images/construction_bunny_bonk.png'
-
-    setTimeout(() => {
-        img.src = './images/construction_bunny.png'
-    }, BONK_LENGTH)
+    const data = {
+        page: "Home"
+    }
+    console.log(template(data))
 }
 
-let score = 0
-function updateScore () {
-    const scoreNumber = document.querySelector('[data-score]')
+main()
 
-    score++
-    scoreNumber.innerHTML = score
+async function getTemplate(path) {
+    const response = await fetch(path)
+    const content = await response.text()
+    return Handlebars.compile(content)
 }
