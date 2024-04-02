@@ -76,25 +76,40 @@
 }
 .nav {
   position: relative;
-  color: #ffdcdc;
-}
-.nav--lining {
   display: flex;
   flex-direction: column;
-  position: absolute;
   height: 100%;
   width: 14rem;
+  left: 0;
+  transition: 0.2s;
   background-color: #fb6089;
+  color: #ffdcdc;
+}
+.nav.nav--hidden {
+  transition: 0.2s;
+  left: -14rem;
+  width: 0;
+}
+.nav.nav--hidden > .nav__button {
+  left: 14rem;
+  color: #ce6c71;
+}
+.nav.nav--hidden > .nav__button:hover {
+  color: #ffdcdc;
+  background: #fb6089;
 }
 .nav__button {
   display: grid;
+  position: absolute;
   place-items: center;
   height: 2.5rem;
   width: 2.5rem;
+  left: 9.5rem;
   margin: 1rem;
   align-self: flex-end;
   border-radius: 2.5rem;
-  transition: color 0.1s, background 0.1s;
+  z-index: 5;
+  transition: 0.1s;
   color: #ffdcdc;
   background: transparent;
 }
@@ -135,6 +150,9 @@
 }
 .nav__menu-item:active {
   background: #60fbd2;
+}
+.nav__header {
+  margin-bottom: 5rem;
 }
 .nav__footer {
   padding: 0.5rem;

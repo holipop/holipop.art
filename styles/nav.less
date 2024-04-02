@@ -1,0 +1,101 @@
+// main: ./style.less
+
+.nav {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: @nav-width;
+    left: 0;
+    transition: .2s;
+
+    background-color: @main-color;
+    color: @bg-color;
+
+    &.nav--hidden {
+        transition: .2s;
+        left: @nav-width * -1;
+        width: 0;
+
+        & > .nav__button {
+            left: @nav-width;
+
+            color: @txt-color;
+
+            &:hover { 
+                color: @bg-color;
+                background: @main-color;
+            }
+        }
+    }
+
+    &__button {
+        display: grid;
+        position: absolute;
+        place-items: center;
+        height: 2.5rem;
+        width: 2.5rem;
+        left: @nav-width - 4.5rem;
+        margin: 1rem;
+        align-self: flex-end;
+        border-radius: 2.5rem;
+        z-index: 5;
+        transition: .1s;
+
+        color: @bg-color;
+        background: transparent;
+
+        &:hover {
+            color: @txt-color;
+            background: @bg-color;
+        }
+        &:active {
+            background: @anti-color;
+        }
+    }
+    &__menu-list {
+        .ListSkinning();
+
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: .1rem;
+        padding-left: 4rem;
+        padding-right: 1rem;
+
+        font: bold italic 1.25rem "Libre Franklin";
+    }
+    &__menu-item {
+        padding: 0 .25rem;
+        border-radius: .2rem;
+        transition: 
+            color .1s,
+            background .1s;
+
+        text-decoration: none;
+        color: @bg-color;
+
+        &.nav__menu-item--selected {
+            color: @txt-color;
+            background: @anti-color;
+        }
+
+        &:hover {
+            color: @txt-color;
+            background: @bg-color;
+        }
+        &:active {
+            background: @anti-color;
+        }
+    }
+    &__header {
+        margin-bottom: 5rem;
+    }
+    &__footer {
+        padding: .5rem;
+        margin-top: 5rem;
+
+        font-size: .75rem;
+    }
+}

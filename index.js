@@ -13,7 +13,9 @@
         selected: hbs.dataset.selected
     }
 
-    Handlebars.registerPartial('nav', await getTemplate('templates/nav.hbs'))
+    Handlebars.registerPartial({
+        "nav": await getTemplate('templates/nav.hbs')
+    })
     Handlebars.registerHelper({
         eq: (v1, v2) => v1 === v2,
         ne: (v1, v2) => v1 !== v2,
@@ -28,10 +30,13 @@
 
     const template = Handlebars.compile(hbs.innerHTML)
     $('#hbs').after(template(context))
+
+    $('.js-nav-menu').on('click', () => {
+        $('.nav').toggleClass('nav--hidden')
+    })
 })()
 
-async function getTemplate(path) {
+async function getTemplate (path) {
     const response = await fetch(path)
     return await response.text()
-    //return Handlebars.compile(content)
 }
