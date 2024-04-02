@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head id="head">
+    <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -9,16 +9,17 @@
 
         <script src="index.js" type="module"></script>
         <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
 
-        <title>Holipop</title>
+        <title>Home | Holipop</title>
     </head>
-    <body>
 
-        <nav id="nav">
-        </nav>
+    <body class="body" id="body">
 
-        <main id="content">
-        </main>
+        <script id="hbs" type="text/x-handlebars-template" data-selected="home">
+            {{> "nav"}}
+        </script>
 
     </body>
+
 </html>

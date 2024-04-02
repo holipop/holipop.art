@@ -1,1 +1,119 @@
-// main: ../style.css
+// main: ./style.less
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: (24 * @rpx);  /* 24px Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+
+    font-family: "Atkinson Hyperlegible";
+    background-color: @bg-color;
+    color: @txt-color;
+}
+
+.button {
+    .InputSkinning();
+
+    cursor: pointer;
+}
+
+.nav {
+    position: relative;
+    color: @bg-color;
+    
+    &--lining {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        height: 100%;
+        width: 14rem;
+
+        background-color: @main-color;
+    }
+
+    &__button {
+        display: grid;
+        place-items: center;
+        height: 2.5rem;
+        width: 2.5rem;
+        margin: 1rem;
+        align-self: flex-end;
+        border-radius: 2.5rem;
+        transition: 
+            color .1s,
+            background .1s;
+
+        color: @bg-color;
+        background: transparent;
+
+        &:hover {
+            color: @txt-color;
+            background: @bg-color;
+        }
+        &:active {
+            background: @anti-color;
+        }
+    }
+    &__menu-list {
+        .ListSkinning();
+
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: .1rem;
+        padding-left: 4rem;
+        padding-right: 1rem;
+
+        font: bold italic 1.25rem "Libre Franklin";
+    }
+    &__menu-item {
+        padding: 0 .25rem;
+        border-radius: .2rem;
+        transition: 
+            color .1s,
+            background .1s;
+
+        text-decoration: none;
+        color: @bg-color;
+
+        &.nav__menu-item--selected {
+            color: @txt-color;
+            background: @anti-color;
+        }
+
+        &:hover {
+            color: @txt-color;
+            background: @bg-color;
+        }
+        &:active {
+            background: @anti-color;
+        }
+    }
+    &__footer {
+        padding: .5rem;
+        margin-top: 5rem;
+
+        font-size: .75rem;
+    }
+}

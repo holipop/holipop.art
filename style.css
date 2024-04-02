@@ -1,236 +1,143 @@
 @font-face {
-  font-family: 'Atkinson Hyperlegible';
+  font-family: "Material Symbols Outlined";
+  src: url("fonts/Material_Symbols/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].ttf");
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("fonts/Atkinson_Hyperlegible/AtkinsonHyperlegible-Regular.ttf");
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("fonts/Atkinson_Hyperlegible/AtkinsonHyperlegible-Italic.ttf");
   font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegible/v11/9Bt43C1KxNDXMspQ1lPyU89-1h6ONRlW45G055It.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Atkinson Hyperlegible';
+  font-family: "Atkinson Hyperlegible";
+  src: url("fonts/Atkinson_Hyperlegible/AtkinsonHyperlegible-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("fonts/Atkinson_Hyperlegible/AtkinsonHyperlegible-BoldItalic.ttf");
   font-style: italic;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegible/v11/9Bt93C1KxNDXMspQ1lPyU89-1h6ONRlW45G056qRdiWK.ttf) format('truetype');
+  font-weight: bold;
 }
 @font-face {
-  font-family: 'Atkinson Hyperlegible';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegible/v11/9Bt23C1KxNDXMspQ1lPyU89-1h6ONRlW45GE5Q.ttf) format('truetype');
+  font-family: "Libre Franklin";
+  src: url("fonts/Libre_Franklin/static/LibreFranklin-Regular.ttf");
 }
 @font-face {
-  font-family: 'Atkinson Hyperlegible';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegible/v11/9Bt73C1KxNDXMspQ1lPyU89-1h6ONRlW45G8WbcNcw.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Libre Franklin';
+  font-family: "Libre Franklin";
+  src: url("fonts/Libre_Franklin/static/LibreFranklin-Italic.ttf");
   font-style: italic;
-  font-weight: 100;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oZ8RdDM.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Libre Franklin';
+  font-family: "Libre Franklin";
+  src: url("fonts/Libre_Franklin/static/LibreFranklin-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Libre Franklin";
+  src: url("fonts/Libre_Franklin/static/LibreFranklin-BoldItalic.ttf");
   font-style: italic;
-  font-weight: 200;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05ob8RNDM.ttf) format('truetype');
+  font-weight: bold;
 }
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: italic;
-  font-weight: 300;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oYiRNDM.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oZ8RNDM.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: italic;
-  font-weight: 500;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oZORNDM.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: italic;
-  font-weight: 600;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oaiQ9DM.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: italic;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oabQ9DM.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: italic;
-  font-weight: 800;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05ob8Q9DM.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: italic;
-  font-weight: 900;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05obVQ9DM.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Libre Franklin';
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
   font-style: normal;
-  font-weight: 100;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhLsSUBw.ttf) format('truetype');
+  font-size: 1.5rem;
+  /* 24px Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
 }
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: normal;
-  font-weight: 200;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhrsWUBw.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhcMWUBw.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhLsWUBw.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhHMWUBw.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduh8MKUBw.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhycKUBw.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: normal;
-  font-weight: 800;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhrsKUBw.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhh8KUBw.ttf) format('truetype');
-}
-:root {
+.body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  font-family: "Atkinson Hyperlegible";
   background-color: #ffdcdc;
   color: #ce6c71;
 }
-body {
-  height: 95vh;
-  display: grid;
-  place-items: center;
+.button {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
 }
-.flip {
-  background-color: #fb6089;
+.nav {
+  position: relative;
   color: #ffdcdc;
 }
-.bonk-wip {
-  height: 20rem;
+.nav--lining {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 100%;
+  width: 14rem;
+  background-color: #fb6089;
+}
+.nav__button {
   display: grid;
   place-items: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin: 1rem;
+  align-self: flex-end;
+  border-radius: 2.5rem;
+  transition: color 0.1s, background 0.1s;
+  color: #ffdcdc;
+  background: transparent;
 }
-.bonk-wip > * {
-  grid-area: 1 / 1 / -1 / -1;
-}
-.bonk-wip p {
-  width: 100%;
-  margin: 0;
-  align-self: start;
-  pointer-events: none;
+.nav__button:hover {
   color: #ce6c71;
-  font-family: "Atkinson Hyperlegible";
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  background: #ffdcdc;
 }
-.bonk-wip img {
-  position: relative;
-  height: 10.25rem;
-  aspect-ratio: 1722 / 1107;
+.nav__button:active {
+  background: #60fbd2;
 }
-.bonk-wip p.prompt {
-  align-self: end;
-  font-weight: normal;
-  font-size: 1.25rem;
+.nav__menu-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 0.1rem;
+  padding-left: 4rem;
+  padding-right: 1rem;
+  font: bold italic 1.25rem "Libre Franklin";
 }
-#score-counter {
-  position: relative;
-  transform: skewX(-10deg);
+.nav__menu-item {
+  padding: 0 0.25rem;
+  border-radius: 0.2rem;
+  transition: color 0.1s, background 0.1s;
+  text-decoration: none;
+  color: #ffdcdc;
 }
-#score-counter .score-wrapper {
-  position: absolute;
-  top: -1rem;
-  left: 9rem;
-  width: 10rem;
+.nav__menu-item.nav__menu-item--selected {
+  color: #ce6c71;
+  background: #60fbd2;
 }
-#score-counter .score-wrapper > * {
-  font-family: "Libre Franklin";
-  line-height: 0.75;
+.nav__menu-item:hover {
+  color: #ce6c71;
+  background: #ffdcdc;
 }
-#score-counter .score-label {
-  line-height: 0.75;
-  opacity: 0.66;
+.nav__menu-item:active {
+  background: #60fbd2;
 }
-#score-counter .score-number {
-  font-size: 4rem;
-  font-weight: 800;
-  line-height: 0.95;
-}
-#score-counter .test {
-  animation: test 0.15s linear;
-}
-@keyframes test {
-  from {
-    transform: translateY(0%);
-  }
-  to {
-    transform: translateY(100%);
-  }
+.nav__footer {
+  padding: 0.5rem;
+  margin-top: 5rem;
+  font-size: 0.75rem;
 }

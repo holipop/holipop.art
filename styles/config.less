@@ -1,11 +1,33 @@
-// main: ../style.css
+// main: ./style.less
 
 // Variables
+@rpx: (1 / 16) * 1rem;
+
 @bg-color: #ffdcdc;
 @main-color: #fb6089;
-@dark-color: #ce6c71;
+@anti-color: #60fbd2;
+@txt-color: #ce6c71;
+
+.InputSkinning() {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+
+    background: none;
+}
+.ListSkinning() {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 // Fonts
+@font-face {
+    font-family: "Material Symbols Outlined";
+    src: url("./fonts/Material_Symbols/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].ttf");
+}
+
 @font-face {
     font-family: "Atkinson Hyperlegible";
     src: url("./fonts/Atkinson_Hyperlegible/AtkinsonHyperlegible-Regular.ttf");

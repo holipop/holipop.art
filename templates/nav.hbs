@@ -1,3 +1,23 @@
 <nav class="nav">
-    {{test}}
+    <div class="nav--lining">
+
+        <button type="button" class="button nav__button">
+            <span class="material-symbols-outlined">menu</span>
+        </button>
+
+        <ol class="nav__menu-list">
+
+            {{#each items}}
+                <a class="nav__menu-item {{#if (eq @root.selected @key)}}nav__menu-item--selected{{/if}}" href="{{href}}">
+                    {{name}}
+                </a>
+            {{/each}}
+
+        </ol>
+
+        <div class="nav__footer">
+            Sunny Holiday &copy; 2024
+        </div>
+
+    </div>
 </nav>
