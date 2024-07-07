@@ -74,12 +74,19 @@
   background: none;
   cursor: pointer;
 }
+.content {
+  width: calc(100vw - 14rem - 6rem);
+  flex: none;
+  padding: 3rem;
+  margin: 0 auto;
+}
 .nav {
   position: relative;
   display: flex;
   flex-direction: column;
   height: 100%;
   width: 14rem;
+  min-width: 14rem;
   left: 0;
   transition: 0.2s;
   background-color: #fb6089;
@@ -89,6 +96,7 @@
   transition: 0.2s;
   left: -14rem;
   width: 0;
+  min-width: 0;
 }
 .nav.nav--hidden > .nav__button {
   left: 14rem;

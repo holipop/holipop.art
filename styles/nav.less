@@ -6,6 +6,7 @@
     flex-direction: column;
     height: 100%;
     width: @nav-width;
+    min-width: @nav-width;
     left: 0;
     transition: .2s;
 
@@ -16,6 +17,7 @@
         transition: .2s;
         left: @nav-width * -1;
         width: 0;
+        min-width: 0;
 
         & > .nav__button {
             left: @nav-width;

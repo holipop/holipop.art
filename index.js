@@ -14,9 +14,10 @@
     }
 
     Handlebars.registerPartial({
-        "nav": await getTemplate('templates/nav.hbs')
+        "nav": await getTemplate('templates/nav.hbs'),
+        "home": await getTemplate('templates/home.hbs'),
     })
-    Handlebars.registerHelper({
+    Handlebars.registerHelper({ // taken from FoundryVTT
         eq: (v1, v2) => v1 === v2,
         ne: (v1, v2) => v1 !== v2,
         lt: (v1, v2) => v1 < v2,
