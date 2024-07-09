@@ -1,0 +1,22 @@
+:root {
+    --pink-bg-color: #fedcdb;
+    --pink-txt-color: #cd6c6f;
+
+    padding: none;
+    
+    background-color: var(--pink-bg-color);
+    color: var(--pink-txt-color);
+}
+
+body {
+    margin: 0;
+}
+
+holi-sidebar {
+    position: absolute;
+    width: 12rem;
+    height: 100%;
+
+    background-color: var(--pink-txt-color);
+    color: #fedcdb;
+}
