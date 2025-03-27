@@ -27,238 +27,313 @@
   src: url(https://fonts.gstatic.com/s/atkinsonhyperlegible/v11/9Bt73C1KxNDXMspQ1lPyU89-1h6ONRlW45G8WbcNcw.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Philosopher';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/philosopher/v19/vEFX2_5QCwIS4_Dhez5jcWBrT0g.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Philosopher';
-  font-style: italic;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/philosopher/v19/vEFK2_5QCwIS4_Dhez5jcWBrd_QZ8tI.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Philosopher';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/philosopher/v19/vEFV2_5QCwIS4_Dhez5jcVBp.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Philosopher';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/philosopher/v19/vEFI2_5QCwIS4_Dhez5jcWjVamgc.ttf) format('truetype');
-}
-@font-face {
   font-family: 'Libre Franklin';
   font-style: italic;
   font-weight: 100;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oZ8RdDM.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/librefranklin/v18/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oZ8RdDM.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Franklin';
   font-style: italic;
   font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05ob8RNDM.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/librefranklin/v18/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05ob8RNDM.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Franklin';
   font-style: italic;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oYiRNDM.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/librefranklin/v18/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oYiRNDM.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Franklin';
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oZ8RNDM.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/librefranklin/v18/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oZ8RNDM.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Franklin';
   font-style: italic;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oZORNDM.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/librefranklin/v18/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oZORNDM.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Franklin';
   font-style: italic;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oaiQ9DM.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/librefranklin/v18/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oaiQ9DM.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Franklin';
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oabQ9DM.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/librefranklin/v18/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oabQ9DM.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Franklin';
   font-style: italic;
   font-weight: 800;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05ob8Q9DM.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/librefranklin/v18/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05ob8Q9DM.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Franklin';
   font-style: italic;
   font-weight: 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05obVQ9DM.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/librefranklin/v18/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05obVQ9DM.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Franklin';
   font-style: normal;
   font-weight: 100;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhLsSUBw.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/librefranklin/v18/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhLsSUBw.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Franklin';
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhrsWUBw.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/librefranklin/v18/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhrsWUBw.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Franklin';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhcMWUBw.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/librefranklin/v18/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhcMWUBw.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Franklin';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhLsWUBw.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/librefranklin/v18/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhLsWUBw.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Franklin';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhHMWUBw.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/librefranklin/v18/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhHMWUBw.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Franklin';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduh8MKUBw.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/librefranklin/v18/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduh8MKUBw.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Franklin';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhycKUBw.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/librefranklin/v18/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhycKUBw.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Franklin';
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhrsKUBw.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/librefranklin/v18/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhrsKUBw.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Franklin';
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librefranklin/v14/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhh8KUBw.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/librefranklin/v18/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhh8KUBw.ttf) format('truetype');
 }
-:root {
-  background-color: #ffdcdc;
-  color: #ce6c71;
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v24/wlptgwvFAVdoq2_F94zlCfv0bz1WCzsX_LA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v24/wlptgwvFAVdoq2_F94zlCfv0bz1WC7sW_LA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v24/wlptgwvFAVdoq2_F94zlCfv0bz1WC2UW_LA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v24/wlptgwvFAVdoq2_F94zlCfv0bz1WCzsW_LA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v24/wlptgwvFAVdoq2_F94zlCfv0bz1WCwkW_LA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v24/wlptgwvFAVdoq2_F94zlCfv0bz1WC-UR_LA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v24/wlptgwvFAVdoq2_F94zlCfv0bz1WC9wR_LA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v24/wlptgwvFAVdoq2_F94zlCfv0bz1WC7sR_LA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v24/wlptgwvFAVdoq2_F94zlCfv0bz1WC5IR_LA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v232/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOem.ttf) format('truetype');
+}
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+}
+@keyframes squiggly {
+  0% {
+    filter: url('#squiggly-0');
+  }
+  12.5% {
+    filter: url('#squiggly-1');
+  }
+  25% {
+    filter: url('#squiggly-2');
+  }
+  37.5% {
+    filter: url('#squiggly-3');
+  }
+  50% {
+    filter: url('#squiggly-4');
+  }
+  62.5% {
+    filter: url('#squiggly-5');
+  }
+  75% {
+    filter: url('#squiggly-6');
+  }
+  87.5% {
+    filter: url('#squiggly-7');
+  }
+}
+html {
+  background-color: #B7ECFF;
 }
 body {
-  height: 95vh;
-  display: grid;
-  place-items: center;
-}
-.flip {
-  background-color: #fb6089;
-  color: #ffdcdc;
-}
-.bonk-wip {
-  height: 20rem;
-  display: grid;
-  place-items: center;
-}
-.bonk-wip > * {
-  grid-area: 1 / 1 / -1 / -1;
-}
-.bonk-wip p {
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
   margin: 0;
-  align-self: start;
-  pointer-events: none;
-  color: #ce6c71;
-  font-family: "Atkinson Hyperlegible";
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  overflow: hidden;
 }
-.bonk-wip img {
-  position: relative;
-  height: 10.25rem;
-  aspect-ratio: 1722 / 1107;
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50rem;
+  height: 25rem;
+  outline: red solid 1px;
 }
-.bonk-wip p.prompt {
-  align-self: end;
-  font-weight: normal;
-  font-size: 1.25rem;
+.home__img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 65%;
+  height: 100%;
+  outline: red solid 1px;
 }
-#score-counter {
-  position: relative;
-  transform: skewX(-10deg);
+.home__img {
+  width: 100%;
 }
-#score-counter .score-wrapper {
-  position: absolute;
-  top: -1rem;
-  left: 9rem;
-  width: 10rem;
+.logo {
+  display: flex;
+  margin: 0.5rem 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
 }
-#score-counter .score-wrapper > * {
-  font-family: "Libre Franklin";
-  line-height: 0.75;
+.logo__greeting {
+  width: 70%;
 }
-#score-counter .score-label {
-  line-height: 0.75;
-  opacity: 0.66;
+.logo__img {
+  width: 70%;
 }
-#score-counter .score-number {
-  font-size: 4rem;
-  font-weight: 800;
-  line-height: 0.95;
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
 }
-#score-counter .test {
-  animation: test 0.15s linear;
+.nav__button {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  height: 2.25rem;
+  width: 70%;
+  padding: 0 0.75rem;
+  border-radius: 3rem;
+  background-color: #E0F5F4;
 }
-@keyframes test {
-  from {
-    transform: translateY(0%);
-  }
-  to {
-    transform: translateY(100%);
-  }
+.nav__button-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.socials {
+  display: flex;
+  margin: 0.4rem 0;
+  justify-content: center;
+  gap: 0.4rem;
+}
+.socials__link-icon {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
 }

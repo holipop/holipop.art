@@ -1,32 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="./images/favicon.png">
+        <link rel="stylesheet" href="style.css" />
+        <script type="module" src="index.html"></script>
 
-        <script src="index.js" type="module"></script>
-
-        <title>Under Construction! | Holipop</title>
+        <title>holipop.art</title>
     </head>
     <body>
 
-        <div class="bonk-wip">
-
-            <p>Site is under construction!</p>
-            <img src="./images/construction_bunny.png" data-bonk>
-            <p class="prompt">Click to bonk.</p>
-
-            <div id="score-counter">
-                <div class="score-wrapper">
-                    <div class="score-label">SCORE:</div>
-                    <div class="score-number" data-score>0</div>
-                </div>
+        <main class="home">
+            
+            <div class="home__img-wrapper">
+                <img class="home__img" src="images/home.png" />
             </div>
 
-        </div>
+            <div class="logo">
+                <span class="logo__greeting">hi, my name is</span>
+                <img class="logo__img" src="images/logo.png" alt="holipop (Sunny Holiday)" />
+            </div>
+
+            <nav class="nav">
+                <a class="nav__button"> <!-- About -->
+                    <img class="nav__button-icon" src="images/bunny.png" />
+                    <span class="nav__button-label">about</span>
+                </a>
+
+                <a class="nav__button"> <!-- Gallery -->
+                    <img class="nav__button-icon" src="images/portrait.png" />
+                    <span class="nav__button-label">gallery</span>
+                </a>
+
+                <a class="nav__button"> <!-- Commissions -->
+                    <img class="nav__button-icon" src="images/brush.png" />
+                    <span class="nav__button-label">commissions</span>
+                </a>
+
+                <a class="nav__button"> <!-- Blog -->
+                    <img class="nav__button-icon" src="images/thought.png" />
+                    <span class="nav__button-label">blog</span>
+                </a>
+            </nav>
+
+            <section class="socials">
+                <a class="socials__link"> <!-- BlueSky -->
+                    <img class="socials__link-icon" src="images/favicon.png" />
+                </a>
+
+                <a class="socials__link"> <!-- Twitter -->
+                    <img class="socials__link-icon" src="images/favicon.png" />
+                </a>
+
+                <a class="socials__link"> <!-- Tumblr -->
+                    <img class="socials__link-icon" src="images/favicon.png" />
+                </a>
+
+                <a class="socials__link"> <!-- Patreon -->
+                    <img class="socials__link-icon" src="images/favicon.png" />
+                </a>
+
+                <a class="socials__link"> <!-- GitHub -->
+                    <img class="socials__link-icon" src="images/favicon.png" />
+                </a>
+            </section>
+
+        </main>
+
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" version="1.1" display="none">
+            <defs>
+                <filter id="squiggly-0">
+                    <feTurbulence id="turbulence" baseFrequency="0.005" numOctaves="3" result="noise" seed="0"/>
+                    <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+                </filter>
+        
+                <filter id="squiggly-1">
+                    <feTurbulence id="turbulence" baseFrequency="0.005" numOctaves="3" result="noise" seed="1"/>
+                    <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+                </filter>
+                
+                <filter id="squiggly-2">
+                    <feTurbulence id="turbulence" baseFrequency="0.005" numOctaves="3" result="noise" seed="2"/>
+                    <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+                </filter>
+        
+                <filter id="squiggly-3">
+                    <feTurbulence id="turbulence" baseFrequency="0.005" numOctaves="3" result="noise" seed="3"/>
+                    <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+                </filter>
+                
+                <filter id="squiggly-4">
+                    <feTurbulence id="turbulence" baseFrequency="0.005" numOctaves="3" result="noise" seed="4"/>
+                    <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+                </filter>
+
+                <filter id="squiggly-5">
+                    <feTurbulence id="turbulence" baseFrequency="0.005" numOctaves="3" result="noise" seed="5"/>
+                    <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+                </filter>
+
+                <filter id="squiggly-6">
+                    <feTurbulence id="turbulence" baseFrequency="0.005" numOctaves="3" result="noise" seed="6"/>
+                    <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+                </filter>
+
+                <filter id="squiggly-7">
+                    <feTurbulence id="turbulence" baseFrequency="0.005" numOctaves="3" result="noise" seed="7"/>
+                    <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+                </filter>
+                
+            </defs> 
+        </svg> -->
 
     </body>
 </html>
