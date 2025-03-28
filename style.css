@@ -1,30 +1,198 @@
 @font-face {
-  font-family: 'Atkinson Hyperlegible';
+  font-family: 'Atkinson Hyperlegible Mono';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblemono/v5/tssPAoFBci4C4gvhPXrt3wjT1MqSzhA4t7IIcncBiwKonlKh6PW-UyGM1JTKTiMf.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Mono';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblemono/v5/tssPAoFBci4C4gvhPXrt3wjT1MqSzhA4t7IIcncBiwKonlKh6PW-UyGM1JQUTiMf.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Mono';
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegible/v11/9Bt43C1KxNDXMspQ1lPyU89-1h6ONRlW45G055It.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblemono/v5/tssPAoFBci4C4gvhPXrt3wjT1MqSzhA4t7IIcncBiwKonlKh6PW-UyGM1JRKTiMf.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Atkinson Hyperlegible';
+  font-family: 'Atkinson Hyperlegible Mono';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblemono/v5/tssPAoFBci4C4gvhPXrt3wjT1MqSzhA4t7IIcncBiwKonlKh6PW-UyGM1JR4TiMf.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Mono';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblemono/v5/tssPAoFBci4C4gvhPXrt3wjT1MqSzhA4t7IIcncBiwKonlKh6PW-UyGM1JSUSSMf.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Mono';
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegible/v11/9Bt93C1KxNDXMspQ1lPyU89-1h6ONRlW45G056qRdiWK.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblemono/v5/tssPAoFBci4C4gvhPXrt3wjT1MqSzhA4t7IIcncBiwKonlKh6PW-UyGM1JStSSMf.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Atkinson Hyperlegible';
+  font-family: 'Atkinson Hyperlegible Mono';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblemono/v5/tssPAoFBci4C4gvhPXrt3wjT1MqSzhA4t7IIcncBiwKonlKh6PW-UyGM1JTKSSMf.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Mono';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblemono/v5/tssNAoFBci4C4gvhPXrt3wjT1MqSzhA4t7IIcncBiyihrK15gZ4k_SaZnNeiDQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblemono/v5/tssNAoFBci4C4gvhPXrt3wjT1MqSzhA4t7IIcncBiyihrK15gZ4k_SaZQteiDQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Mono';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegible/v11/9Bt23C1KxNDXMspQ1lPyU89-1h6ONRlW45GE5Q.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblemono/v5/tssNAoFBci4C4gvhPXrt3wjT1MqSzhA4t7IIcncBiyihrK15gZ4k_SaZHNeiDQ.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Atkinson Hyperlegible';
+  font-family: 'Atkinson Hyperlegible Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblemono/v5/tssNAoFBci4C4gvhPXrt3wjT1MqSzhA4t7IIcncBiyihrK15gZ4k_SaZLteiDQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblemono/v5/tssNAoFBci4C4gvhPXrt3wjT1MqSzhA4t7IIcncBiyihrK15gZ4k_SaZwtCiDQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Mono';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegible/v11/9Bt73C1KxNDXMspQ1lPyU89-1h6ONRlW45G8WbcNcw.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblemono/v5/tssNAoFBci4C4gvhPXrt3wjT1MqSzhA4t7IIcncBiyihrK15gZ4k_SaZ-9CiDQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Mono';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblemono/v5/tssNAoFBci4C4gvhPXrt3wjT1MqSzhA4t7IIcncBiyihrK15gZ4k_SaZnNCiDQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblenext/v4/NaP6cYPdHfdVxJw0IfIP0lvYFqijb-UxCtm5_wdGseiMhXSWUJ7iyGKiJPdJ99N5.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblenext/v4/NaP6cYPdHfdVxJw0IfIP0lvYFqijb-UxCtm5_wdGseiMhXSWUJ7iyGKiJPeX99N5.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblenext/v4/NaP6cYPdHfdVxJw0IfIP0lvYFqijb-UxCtm5_wdGseiMhXSWUJ7iyGKiJPfJ99N5.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblenext/v4/NaP6cYPdHfdVxJw0IfIP0lvYFqijb-UxCtm5_wdGseiMhXSWUJ7iyGKiJPf799N5.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblenext/v4/NaP6cYPdHfdVxJw0IfIP0lvYFqijb-UxCtm5_wdGseiMhXSWUJ7iyGKiJPcX8NN5.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblenext/v4/NaP6cYPdHfdVxJw0IfIP0lvYFqijb-UxCtm5_wdGseiMhXSWUJ7iyGKiJPcu8NN5.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblenext/v4/NaP6cYPdHfdVxJw0IfIP0lvYFqijb-UxCtm5_wdGseiMhXSWUJ7iyGKiJPdJ8NN5.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblenext/v4/NaP4cYPdHfdVxJw0IfIP0lvYFqijb-UxCtm5_wdGscKFt4tOOfV4ZmW3bLQhtA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblenext/v4/NaP4cYPdHfdVxJw0IfIP0lvYFqijb-UxCtm5_wdGscKFt4tOOfV4ZmW3srQhtA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblenext/v4/NaP4cYPdHfdVxJw0IfIP0lvYFqijb-UxCtm5_wdGscKFt4tOOfV4ZmW37LQhtA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblenext/v4/NaP4cYPdHfdVxJw0IfIP0lvYFqijb-UxCtm5_wdGscKFt4tOOfV4ZmW33rQhtA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblenext/v4/NaP4cYPdHfdVxJw0IfIP0lvYFqijb-UxCtm5_wdGscKFt4tOOfV4ZmW3MrMhtA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblenext/v4/NaP4cYPdHfdVxJw0IfIP0lvYFqijb-UxCtm5_wdGscKFt4tOOfV4ZmW3C7MhtA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegiblenext/v4/NaP4cYPdHfdVxJw0IfIP0lvYFqijb-UxCtm5_wdGscKFt4tOOfV4ZmW3bLMhtA.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Franklin';
@@ -234,34 +402,27 @@
   word-wrap: normal;
   direction: ltr;
 }
-@keyframes squiggly {
-  0% {
-    filter: url('#squiggly-0');
-  }
-  12.5% {
-    filter: url('#squiggly-1');
-  }
-  25% {
-    filter: url('#squiggly-2');
-  }
-  37.5% {
-    filter: url('#squiggly-3');
-  }
-  50% {
-    filter: url('#squiggly-4');
-  }
-  62.5% {
-    filter: url('#squiggly-5');
-  }
-  75% {
-    filter: url('#squiggly-6');
-  }
-  87.5% {
-    filter: url('#squiggly-7');
-  }
+#Button {
+  text-decoration: none;
+  transition: background-color 0.075s;
+  color: #425F69;
+  background-color: #E0F5F4;
+  filter: drop-shadow(#86DDEE 0 0 0.2rem);
+}
+#Button:hover {
+  cursor: pointer;
+  background-color: #86DDEE;
+}
+#Button:active {
+  background-color: #E7A4A7;
+}
+#Button:focus {
+  outline: #CE6C71 solid 0.15rem;
 }
 html {
   background-color: #B7ECFF;
+  color: #3C4E5A;
+  font: 1rem "Atkinson Hyperlegible Mono";
 }
 body {
   display: flex;
@@ -277,34 +438,36 @@ body {
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 50rem;
-  height: 25rem;
-  outline: red solid 1px;
+  width: 60rem;
+  height: 30rem;
+  padding-right: 2.5rem;
 }
 .home__img-wrapper {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  width: 65%;
+  justify-content: center;
+  width: 75%;
   height: 100%;
-  outline: red solid 1px;
 }
 .home__img {
-  width: 100%;
+  width: 90%;
 }
 .logo {
   display: flex;
-  margin: 0.5rem 0;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 35%;
+  width: 25%;
+  margin: 1.5rem 0;
 }
 .logo__greeting {
-  width: 70%;
+  width: 90%;
+  font-size: smaller;
+  font-weight: bold;
+  color: #358EB5;
 }
 .logo__img {
-  width: 70%;
+  width: 90%;
 }
 .nav {
   display: flex;
@@ -313,27 +476,63 @@ body {
   gap: 0.4rem;
 }
 .nav__button {
+  text-decoration: none;
+  transition: background-color 0.075s;
+  color: #425F69;
+  background-color: #E0F5F4;
+  filter: drop-shadow(#86DDEE 0 0 0.2rem);
   display: flex;
   align-items: center;
-  gap: 0.4rem;
-  height: 2.25rem;
-  width: 70%;
+  gap: 0.75rem;
+  box-sizing: border-box;
+  height: 2.5rem;
+  width: 100%;
   padding: 0 0.75rem;
   border-radius: 3rem;
-  background-color: #E0F5F4;
+}
+.nav__button:hover {
+  cursor: pointer;
+  background-color: #86DDEE;
+}
+.nav__button:active {
+  background-color: #E7A4A7;
+}
+.nav__button:focus {
+  outline: #CE6C71 solid 0.15rem;
 }
 .nav__button-icon {
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 .socials {
   display: flex;
-  margin: 0.4rem 0;
+  margin-top: 0.75rem;
   justify-content: center;
   gap: 0.4rem;
 }
-.socials__link-icon {
-  width: 2.25rem;
-  height: 2.25rem;
+.socials__link {
+  text-decoration: none;
+  transition: background-color 0.075s;
+  color: #425F69;
+  background-color: #E0F5F4;
+  filter: drop-shadow(#86DDEE 0 0 0.2rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
+}
+.socials__link:hover {
+  cursor: pointer;
+  background-color: #86DDEE;
+}
+.socials__link:active {
+  background-color: #E7A4A7;
+}
+.socials__link:focus {
+  outline: #CE6C71 solid 0.15rem;
+}
+.socials__link-icon {
+  width: 90%;
 }

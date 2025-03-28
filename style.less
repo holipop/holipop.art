@@ -1,12 +1,16 @@
 // main: ./style.css
 
-// Fonts
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+// ---- Fonts ----
+
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
 
-// Variables
+
+
+// ---- Variables ----
+
 @red-color-0: #FFDCDC;
 @red-color-1: #E7A4A7;
 @red-color-2: #CE6C71;
@@ -35,38 +39,37 @@
 @blue-color-4: #358EB5;
 @blue-color-5: #1A567D;
 
-@keyframes squiggly {
-    0% {
-        filter: url('#squiggly-0');
+
+
+// ---- Mixins ----
+
+#Button {
+    text-decoration: none;
+    transition: background-color .075s;
+    color: @cyan-color-4;
+    background-color: @blue-color-0;
+    filter: drop-shadow(@blue-color-2 0 0 .2rem);
+
+    &:hover {
+        cursor: pointer;
+        background-color: @blue-color-2;
     }
-    12.5% {
-        filter: url('#squiggly-1');
+    &:active {
+        background-color: @red-color-1;
     }
-    25% {
-        filter: url('#squiggly-2');
-    }
-    37.5% {
-        filter: url('#squiggly-3');
-    }
-    50% {
-        filter: url('#squiggly-4');
-    }
-    62.5% {
-        filter: url('#squiggly-5');
-    }
-    75% {
-        filter: url('#squiggly-6');
-    }
-    87.5% {
-        filter: url('#squiggly-7');
+    &:focus {
+        outline: @red-color-2 solid .15rem;
     }
 }
 
 
-// Styling
+
+// ---- Styling ----
 
 html {
     background-color: @blue-color-1;
+    color: @cyan-color-5;
+    font: 1rem "Atkinson Hyperlegible Mono";
 }
 
 body {
@@ -84,36 +87,38 @@ body {
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 50rem;
-    height: 25rem;
-    outline: red solid 1px;
+    width: 60rem;
+    height: 30rem;
+    padding-right: 2.5rem;
 }
 
 .home__img-wrapper {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    width: 65%;
+    justify-content: center;
+    width: 75%;
     height: 100%;
-    outline: red solid 1px;
 }
 .home__img {
-    width: 100%;
+    width: 90%;
 }
 
 .logo {
     display: flex;
-    margin: .5rem 0;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 35%;
+    width: 25%;
+    margin: 1.5rem 0;
 }
 .logo__greeting {
-    width: 70%;
+    width: 90%;
+    font-size: smaller;
+    font-weight: bold;
+    color: @blue-color-4;
 }
 .logo__img {
-    width: 70%;
+    width: 90%;
 }
 
 .nav {
@@ -121,32 +126,40 @@ body {
     flex-direction: column;
     align-items: center;
     gap: .4rem;
-
 }
 .nav__button {
+    #Button();
+
     display: flex;
     align-items: center;
-    gap: .4rem;
-    height: 2.25rem;
-    width: 70%;
+    gap: .75rem;
+    box-sizing: border-box;
+    height: 2.5rem;
+    width: 100%;
     padding: 0 .75rem;
     border-radius: 3rem;
-    //border: @cyan-color-1 solid .1rem;
-    background-color: @blue-color-0;
 }
 .nav__button-icon {
-    width: 1.25rem;
-    height: 1.25rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .socials {
     display: flex;
-    margin: .4rem 0;
+    margin-top: .75rem;
     justify-content: center;
     gap: .4rem;
 }
-.socials__link-icon {
-    width: 2.25rem;
-    height: 2.25rem;
+.socials__link {
+    #Button();
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
+}
+.socials__link-icon {
+    width: 90%;
 }
