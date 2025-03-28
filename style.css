@@ -445,30 +445,12 @@
     top: 0rem;
   }
 }
-#Button {
-  text-decoration: none;
-  transition: background-color 0.075s, outline 0.075s;
-  outline: transparent solid 0rem;
-  color: #425F69;
-  background-color: #E0F5F4;
-  filter: drop-shadow(#86DDEE 0 0 0.2rem);
-}
-#Button:hover {
-  cursor: pointer;
-  background-color: #86DDEE;
-}
-#Button:active {
-  background-color: #E7A4A7;
-}
-#Button:focus {
-  outline: #CE6C71 solid 0.15rem;
-}
 html {
   background-color: #B7ECFF;
   color: #3C4E5A;
   font: 1rem "Atkinson Hyperlegible Mono";
 }
-body {
+.home-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -477,26 +459,51 @@ body {
   margin: 0;
   overflow: hidden;
 }
+@media screen and (max-width: 810px) {
+  .home-wrapper {
+    overflow: scroll;
+  }
+}
 .home {
   position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 60rem;
+  width: 50rem;
   height: 30rem;
-  padding-right: 2.5rem;
+  padding-right: 3.5rem;
   animation: 0.5s fade-down-0;
 }
-.home__img-wrapper {
+@media screen and (max-width: 810px) {
+  .home {
+    width: auto;
+    height: auto;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0;
+  }
+}
+.home .home__img-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 75%;
+  width: 70%;
   height: 100%;
 }
-.home__img {
+@media screen and (max-width: 810px) {
+  .home .home__img-wrapper {
+    width: 95%;
+    margin-bottom: 2rem;
+  }
+}
+.home .home__img {
   width: 90%;
+}
+@media screen and (max-width: 810px) {
+  .home .home__img {
+    width: 100%;
+  }
 }
 .logo {
   position: relative;
@@ -504,7 +511,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 25%;
+  width: 16rem;
   animation: 0.75s fade-down-1;
 }
 .logo .logo__greeting {
@@ -524,6 +531,7 @@ body {
   align-items: center;
   gap: 0.4rem;
   margin: 1.25rem 0;
+  width: 16rem;
   animation: 1s fade-down-2;
 }
 .nav .nav__button {
@@ -560,7 +568,9 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 0.4rem;
+  width: 16rem;
   animation: 1.25s fade-down-3;
 }
 .socials .socials__link {
@@ -573,8 +583,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2.75rem;
-  height: 2.75rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
 }
 .socials .socials__link:hover {
@@ -588,5 +598,5 @@ body {
   outline: #CE6C71 solid 0.15rem;
 }
 .socials .socials__link-icon {
-  width: 90%;
+  width: 80%;
 }

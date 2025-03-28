@@ -39,53 +39,37 @@
 @blue-color-4: #358EB5;
 @blue-color-5: #1A567D;
 
+@background-color: @blue-color-1;
+
+@text-color-primary: @cyan-color-5;
+@text-color-secondary: @blue-color-4;
+
+@bedroom-width: 70%;
+
+@fade-down-duration: .75s;
+@fade-down-delay: .25s;
+
 @keyframes fade-down-0 {
-    0% {
-        opacity: 0;
-        top: -1rem;
-    }
-    100% {
-        opacity: 1;
-        top: 0rem;
-    }
+    0%      { opacity: 0; top: -1rem; }
+    100%    { opacity: 1; top:  0rem; }
 }
-
 @keyframes fade-down-1 {
-    0%, 25% {
-        opacity: 0;
-        top: -1rem;
-    }
-    100% {
-        opacity: 1;
-        top: 0rem;
-    }
+    0%, 25% { opacity: 0; top: -1rem; }
+    100%    { opacity: 1; top:  0rem; }
 }
-
 @keyframes fade-down-2 {
-    0%, 50% {
-        opacity: 0;
-        top: -1rem;
-    }
-    100% {
-        opacity: 1;
-        top: 0rem;
-    }
+    0%, 50% { opacity: 0; top: -1rem; }
+    100%    { opacity: 1; top:  0rem; }
+}
+@keyframes fade-down-3 {
+    0%, 75% { opacity: 0; top: -1rem; }
+    100%    { opacity: 1; top:  0rem; }
 }
 
-@keyframes fade-down-3 {
-    0%, 75% {
-        opacity: 0;
-        top: -1rem;
-    }
-    100% {
-        opacity: 1;
-        top: 0rem;
-    }
-}
 
 // ---- Mixins ----
 
-#Button {
+#Button () {
     text-decoration: none;
     transition: background-color .075s, outline .075s;
     outline: transparent solid 0rem;
@@ -105,16 +89,29 @@
     }
 }
 
+#MobilePortrait (@rules) {
+    @media screen and (max-width: 810px) {
+        & {
+            @rules();
+        }
+    }
+}
+
+
 
 // ---- Styling ----
 
 html {
-    background-color: @blue-color-1;
-    color: @cyan-color-5;
+    background-color: @background-color;
+    color: @text-color-primary;
     font: 1rem "Atkinson Hyperlegible Mono";
 }
 
-body {
+.home-wrapper {
+    #MobilePortrait({
+        overflow: scroll;
+    });
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,30 +120,46 @@ body {
     margin: 0;
     overflow: hidden;
 }
-
 .home {
-    position: relative;
+    #MobilePortrait({
+        width: auto;
+        height: auto;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 0;
+    });
 
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 60rem;
+    width: 50rem;
     height: 30rem;
-    padding-right: 2.5rem;
+    padding-right: 3.5rem;
 
     animation: .5s fade-down-0;
-}
 
-.home__img-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 75%;
-    height: 100%;
-}
-.home__img {
-    width: 90%;
+    .home__img-wrapper {
+        #MobilePortrait({
+            width: 95%;
+            margin-bottom: 2rem;
+        });
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: @bedroom-width;
+        height: 100%;
+    }
+
+    .home__img {
+        #MobilePortrait({
+            width: 100%;
+        });
+
+        width: 90%;
+    }
 }
 
 .logo {
@@ -155,7 +168,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 25%;
+    width: 16rem;
 
     animation: .75s fade-down-1;
 
@@ -179,6 +192,7 @@ body {
     align-items: center;
     gap: .4rem;
     margin: 1.25rem 0;
+    width: 16rem;
 
     animation: 1s fade-down-2;
 
@@ -205,7 +219,9 @@ body {
     position: relative;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: .4rem;
+    width: 16rem;
 
     animation: 1.25s fade-down-3;
 
@@ -215,12 +231,12 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 2.75rem;
-        height: 2.75rem;
+        width: 2.5rem;
+        height: 2.5rem;
         border-radius: 50%;
     }
 
     .socials__link-icon {
-        width: 90%;
+        width: 80%;
     }
 }
