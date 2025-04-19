@@ -1,11 +1,17 @@
 {
-  "name": "holipop.art",
-  "version": "0.0.1",
-  "description": "Personal website for Holipop.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Sunny Holiday",
-  "license": "MIT"
+    "name": "holipop.art",
+    "version": "0.0.1",
+    "description": "Personal website for Holipop.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "node tasks/build.js"
+    },
+    "author": "Sunny Holiday",
+    "license": "MIT",
+    "dependencies": {
+        "handlebars": "^4.7.8",
+        "showdown": "^2.1.0"
+    }
 }

@@ -387,7 +387,7 @@
   font-family: 'Material Symbols Outlined';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v232/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOem.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v236/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOem.ttf) format('truetype');
 }
 .material-symbols-outlined {
   font-family: 'Material Symbols Outlined';
@@ -575,8 +575,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2.1rem;
-  height: 2.1rem;
+  width: 2.75rem;
+  height: 2.75rem;
   border-radius: 50%;
 }
 .socials .socials__link:hover {
