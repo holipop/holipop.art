@@ -1,8 +1,6 @@
 // holipop.art
 // Sunny Holiday 2022
 
-// Button Shine
-
 /**
  * @param {MouseEvent} event 
  */
