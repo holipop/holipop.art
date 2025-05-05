@@ -1,32 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="./images/favicon.png">
+        <link rel="shortcut icon" href="/src/assets/favicon.png">
+        <link rel="stylesheet" href="/src/style.css" />
+        <script type="module" src="/src/main.js"></script>
 
-        <script src="index.js" type="module"></script>
-
-        <title>Under Construction! | Holipop</title>
+        <title>holipop.art</title>
     </head>
-    <body>
+    <body class="home-wrapper">
 
-        <div class="bonk-wip">
-
-            <p>Site is under construction!</p>
-            <img src="./images/construction_bunny.png" data-bonk>
-            <p class="prompt">Click to bonk.</p>
-
-            <div id="score-counter">
-                <div class="score-wrapper">
-                    <div class="score-label">SCORE:</div>
-                    <div class="score-number" data-score>0</div>
-                </div>
+        <main class="home">
+            
+            <div class="home__img-wrapper">
+                <img class="home__img" src="/src/assets/home.png" />
             </div>
 
-        </div>
+            <div class="logo">
+                <span class="logo__greeting">hi, i'm</span>
+                <img class="logo__img" src="/src/assets/logo.png" alt="holipop (Sunny Holiday)" />
+            </div>
+
+            <nav class="nav">
+                <!-- About -->
+                <!-- <a class="nav__button" href="about.html"> 
+                    <img class="nav__button-icon" src="/src/assets/icons/bunny.png" />
+                    <span class="nav__button-label">about</span>
+                </a> -->
+
+                <!-- Gallery -->
+                <!-- <a class="nav__button" href="index.html"> 
+                    <img class="nav__button-icon" src="/src/assets/icons/painting.png" />
+                    <span class="nav__button-label">gallery</span>
+                </a> -->
+
+                <!-- Commissions -->
+                <a class="nav__button" href="https://forms.gle/HpgxCp17xgTKxsDz5"> 
+                    <img class="nav__button-icon" src="/src/assets/icons/brush.png" />
+                    <span class="nav__button-label">commissions</span>
+                </a>
+
+                <!-- Terms of Service -->
+                <a class="nav__button" href="tos.html"> 
+                    <img class="nav__button-icon" src="/src/assets/icons/bunny.png" />
+                    <span class="nav__button-label">terms of service</span>
+                </a>
+
+                <!-- Blog -->
+                <!-- <a class="nav__button" href="index.html"> 
+                    <img class="nav__button-icon" src="/src/assets/icons/thought.png" />
+                    <span class="nav__button-label">blog</span>
+                </a> -->
+                
+            </nav>
+
+            <section class="socials">
+                <!-- Discord -->
+                <a class="socials__link" href="https://discord.gg/QG7QGhDeq9" title="Discord"> 
+                    <img class="socials__link-icon" src="/src/assets/icons/discord.png" />
+                </a>
+
+                <!-- BlueSky -->
+                <a class="socials__link" href="https://bsky.app/profile/holipop.art" title="BlueSky"> 
+                    <img class="socials__link-icon" src="/src/assets/icons/bluesky.png" />
+                </a>
+
+                <!-- Twitter -->
+                <a class="socials__link" href="https://x.com/holipop__" title="Twitter"> 
+                    <img class="socials__link-icon" src="/src/assets/icons/twitter.png" />
+                </a>
+
+                <!-- Tumblr -->
+                <a class="socials__link" href="https://www.tumblr.com/holipop-art" title="Tumblr"> 
+                    <img class="socials__link-icon" src="/src/assets/icons/tumblr.png" />
+                </a>
+
+                <!-- GitHub -->
+                <a class="socials__link" href="https://github.com/holipop" title="GitHub"> 
+                    <img class="socials__link-icon" src="/src/assets/icons/github.png" />
+                </a>
+
+                <!-- Patreon -->
+                <a class="socials__link" href="https://www.patreon.com/c/holipop" title="Patreon"> 
+                    <img class="socials__link-icon" src="/src/assets/icons/patreon.png" />
+                </a>
+
+                <!-- Ko-fi -->
+                <a class="socials__link" href="https://ko-fi.com/holipop" title="Ko-fi"> 
+                    <img class="socials__link-icon" src="/src/assets/icons/kofi.png" />
+                </a>
+
+
+                <span class="copyright">holipop &copy; 2025</span>
+            </section>
+
+        </main>
 
     </body>
 </html>
