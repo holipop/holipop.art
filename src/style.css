@@ -387,7 +387,7 @@
   font-family: 'Material Symbols Outlined';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v236/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOem.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v241/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOem.ttf) format('truetype');
 }
 .material-symbols-outlined {
   font-family: 'Material Symbols Outlined';
@@ -599,4 +599,43 @@ html {
   font-size: x-small;
   font-weight: bolder;
   color: #358EB5;
+}
+.commissions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.header .header__title {
+  margin: 0;
+  font: 800 4rem "Atkinson Hyperlegible Next";
+  line-height: 0;
+}
+.header .header__info {
+  display: flex;
+  flex-direction: column;
+  width: 8rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  background-color: #E0F5F4;
+}
+.header .header__status,
+.header .header__queue {
+  display: flex;
+  justify-content: space-between;
+}
+.header .header__status-text,
+.header .header__queue-text {
+  font-weight: bold;
+  color: #358EB5;
+}
+.header .header__info.header__info--open .header__status-text {
+  color: #64a03e;
+}
+.header .header__info.header__info--closed .header__status-text {
+  color: #9e4f4f;
 }

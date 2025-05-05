@@ -39,6 +39,9 @@
 @blue-color-4: #358EB5;
 @blue-color-5: #1A567D;
 
+@status-open: rgb(100, 160, 62);
+@status-closed: rgb(158, 79, 79);
+
 @background-color: @blue-color-1;
 
 @text-color-primary: @cyan-color-5;
@@ -252,5 +255,54 @@ html {
 
 
 
-// ---- - About ----
+// ---- - Comms ----
+
+.commissions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+    .header__title {
+        margin: 0;
+
+        font: 800 4rem "Atkinson Hyperlegible Next";
+        line-height: 0;
+    }
+
+    .header__info {
+        display: flex;
+        flex-direction: column;
+        width: 8rem;
+        padding: .5rem .75rem;
+        border-radius: .5rem;
+
+        background-color: @blue-color-0;
+    }
+
+    .header__status, .header__queue {
+        display: flex;
+        justify-content: space-between;
+    }
+    .header__status-text, .header__queue-text {
+        font-weight: bold;
+        color: @blue-color-4;
+    }
+
+    .header__info.header__info--open {
+        .header__status-text {
+            color: @status-open;
+        }
+    }
+    .header__info.header__info--closed {
+        .header__status-text {
+            color: @status-closed;
+        }
+    }
+}
 
