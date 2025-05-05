@@ -3,7 +3,8 @@
     "date": "4/18/2025",
     "title": "Example Article",
     "alt": "Rubber ducky? More like, rubber fucky!",
-    "tags": ["hidden", "wip"]
+    "tags": ["hidden", "wip"],
+    "dest": "/blog"
 }
 ---
 

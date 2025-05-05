@@ -18,7 +18,7 @@ try {
 
         properties.content = converter.makeHtml(markdown)
 
-        fs.writeFile(`./blog/${file.replace(".md", ".html")}`, template(properties))
+        fs.writeFile(`.${properties.dest}/${file.replace(".md", ".html")}`, template(properties))
     }
 } catch (err) {
     console.error(err)

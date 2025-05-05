@@ -596,9 +596,59 @@ html {
   width: 100%;
   margin-bottom: 1rem;
   text-align: center;
-  font-size: x-small;
+  font-size: small;
   font-weight: bolder;
   color: #358EB5;
+}
+.article {
+  width: 45rem;
+  margin: 5rem auto;
+}
+@media screen and (max-width: 810px) {
+  .article {
+    width: 90%;
+  }
+}
+.article-header__title {
+  border-bottom: 0.1rem solid #62C6E3;
+  margin: 0.5rem 0;
+  font: 800 2.5rem "Atkinson Hyperlegible Mono";
+}
+.article-header__date {
+  font: 0.9rem "Atkinson Hyperlegible Next";
+}
+.article-header__alt {
+  font: italic 0.9rem "Atkinson Hyperlegible Next";
+  color: #358EB5;
+}
+.content {
+  padding-top: 1.25rem;
+  box-sizing: border-box;
+  font: 1rem "Atkinson Hyperlegible Next";
+}
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  font-family: "Atkinson Hyperlegible Mono";
+  margin: 0.25rem 0;
+}
+.content h1 {
+  border-bottom: 0.1rem solid #62C6E3;
+}
+.content li {
+  margin: 0.5rem;
+}
+.content h1 {
+  font-size: 1.75rem;
+}
+.content h2 {
+  font-size: 1.5rem;
+}
+.content h3 {
+  font-size: 1.25rem;
 }
 .commissions {
   display: flex;

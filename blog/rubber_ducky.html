@@ -4,14 +4,21 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="shortcut icon" href="/assets/favicon.png">
-        <link rel="stylesheet" href="/style.css" />
-        <script type="module" src="/main.js"></script>
+        <link rel="shortcut icon" href="/src/assets/favicon.png">
+        <link rel="stylesheet" href="/src/style.css" />
+        <script type="module" src="/src/main.js"></script>
 
         <title>holipop.art &centerdot; Example Article</title>
     </head>
     <body class="article">
-        <h1 id="thisisanexamplearticle">This is an example article.</h1>
+        <header class="article-header">
+            <h1 class="article-header__title">Example Article</h1>
+            <span class="article-header__alt">or, &quot;Rubber ducky? More like, rubber fucky!&quot;</span>
+            <span class="article-header__date">&centerdot; 4/18/2025</span>
+        </header>
+
+        <section class="content">
+            <h1 id="thisisanexamplearticle">This is an example article.</h1>
 <p>Here is some <strong>body text</strong>. It's <strong>pretty</strong> <em>awesome</em>.</p>
 <h2 id="heading2">Heading 2.</h2>
 <blockquote>
@@ -25,5 +32,10 @@
 <h6 id="heading6">Heading 6.</h6>
 <pre><code class="lua language-lua">print("some code too :3")
 </code></pre>
+        </section>
+
+        <span class="copyright">
+            holipop &copy; 2025
+        </span>
     </body>
 </html>

@@ -11,6 +11,18 @@
         <title>holipop.art &centerdot; {{title}}</title>
     </head>
     <body class="article">
-        {{{content}}}
+        <header class="article-header">
+            <h1 class="article-header__title">{{title}}</h1>
+            <span class="article-header__alt">or, &quot;{{alt}}&quot;</span>
+            <span class="article-header__date">&centerdot; {{date}}</span>
+        </header>
+
+        <section class="content">
+            {{{content}}}
+        </section>
+
+        <span class="copyright">
+            holipop &copy; 2025
+        </span>
     </body>
 </html>

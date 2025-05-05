@@ -248,14 +248,67 @@ html {
     margin-bottom: 1rem;
     
     text-align: center;
-    font-size: x-small;
+    font-size: small;
     font-weight: bolder;
     color: @text-color-secondary;
 }
 
 
 
-// ---- - Comms ----
+// ---- - Article ----
+
+.article {
+    #MobilePortrait({
+        width: 90%;
+    });
+
+    width: 45rem;
+    margin: 5rem auto;
+}
+
+.article-header__title {
+    border-bottom: .1rem solid @blue-color-3;
+    margin: .5rem 0;
+
+    font: 800 2.5rem "Atkinson Hyperlegible Mono";
+}
+
+.article-header__date {
+    font: .9rem "Atkinson Hyperlegible Next";
+}
+
+.article-header__alt {
+    font: italic .9rem "Atkinson Hyperlegible Next";
+    color: @blue-color-4;
+}
+
+.content {
+    padding-top: 1.25rem;
+    box-sizing: border-box;
+
+    font: 1rem "Atkinson Hyperlegible Next";
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: "Atkinson Hyperlegible Mono";
+        margin: .25rem 0;
+    }
+
+    h1 {
+        border-bottom: .1rem solid @blue-color-3;
+    }
+
+    li {
+        margin: .5rem;
+    }
+
+    h1 { font-size: 1.75rem; }
+    h2 { font-size: 1.50rem; }
+    h3 { font-size: 1.25rem; }
+}
+
+
+
+// ---- - Commissions ----
 
 .commissions {
     display: flex;
