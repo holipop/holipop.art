@@ -603,16 +603,30 @@ html {
 .article {
   width: 45rem;
   margin: 5rem auto;
+  overflow-x: hidden;
 }
 @media screen and (max-width: 810px) {
   .article {
     width: 90%;
   }
 }
+.article-image__wrapper {
+  position: relative;
+  left: 67%;
+  top: -7.5rem;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  opacity: 0.25;
+}
+.article-image {
+  position: absolute;
+  width: 20rem;
+  z-index: -1;
+}
 .article-header__title {
-  border-bottom: 0.1rem solid #62C6E3;
   margin: 0.5rem 0;
-  font: 800 2.5rem "Atkinson Hyperlegible Next";
+  font: 800 2.75rem "Atkinson Hyperlegible Next";
 }
 .article-header__subtitle {
   font: italic 0.9rem "Atkinson Hyperlegible Next";
@@ -633,7 +647,6 @@ html {
   font-weight: 600;
 }
 .content h1 {
-  border-bottom: 0.1rem solid #62C6E3;
   padding: 0 0.05rem;
 }
 .content li {
@@ -647,6 +660,15 @@ html {
 }
 .content h3 {
   font-size: 1.25rem;
+}
+.article-header__title::after,
+.content h1::after {
+  content: "";
+  position: relative;
+  display: block;
+  width: 80%;
+  height: 0.2rem;
+  background: linear-gradient(to right, #358EB5, transparent);
 }
 .commissions {
   display: flex;
