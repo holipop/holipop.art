@@ -11,10 +11,19 @@
         <title>holipop.art &centerdot; {{title}}</title>
     </head>
     <body class="article">
+        {{#if image}}
+            <div class="article-image__wrapper">
+                <img class="article-image" src="/src/assets/background/{{image}}.png">
+            </div>
+        {{/if}}
+
         <header class="article-header">
             <h1 class="article-header__title">{{title}}</h1>
-            <span class="article-header__alt">or, &quot;{{alt}}&quot;</span>
-            <span class="article-header__date">&centerdot; {{date}}</span>
+            {{#if alt}}
+                <span class="article-header__subtitle">or, &quot;{{alt}}&quot;</span>
+                <span class="article-header__subtitle">&centerdot; </span>
+            {{/if}}
+            <span class="article-header__subtitle">{{date}}</span>
         </header>
 
         <section class="content">

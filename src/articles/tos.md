@@ -2,9 +2,10 @@
 {
     "date": "5/5/2025",
     "title": "Terms of Service",
-    "alt": "Information About Commissioning Holipop (That's Me)",
+    "alt": "",
     "tags": [],
-    "dest": ""
+    "dest": "",
+    "image": "jumpsuit"
 }
 ---
 
@@ -24,7 +25,7 @@
 - You, the commissioner, are allowed to copy and redistribute your commission. This includes posting online or printing it for personal use. I cannot revoke these freedoms so long as you follow the terms of service.
 - __Attribution.__ You must give appropriate credit where ever your commission is shared/used (e.g. using it as a profile picture, posting it on social media).
 - __Non-Commercial.__ You cannot use your commission for any commercial purposes.
-- __No Derivatives.__ If you remix, modify, or transform the commission, you may not share the modified artwork. This includes removing/blurring/cropping the watermark and signature.
+- __No Derivatives.__ If you remix, modify, or transform the commission, you may not share the modified artwork. _This includes removing/blurring/cropping the watermark and signature._
 
 # Commission Process
 In general, it takes me about a 1 to 4 weeks to finish a commission depending on the complexity. Here's the general process:
