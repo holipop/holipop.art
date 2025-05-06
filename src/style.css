@@ -619,6 +619,11 @@ html {
   z-index: -1;
   opacity: 0.25;
 }
+@media screen and (max-width: 810px) {
+  .article-image__wrapper {
+    left: 25%;
+  }
+}
 .article-image {
   position: absolute;
   width: 20rem;

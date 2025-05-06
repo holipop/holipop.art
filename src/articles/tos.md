@@ -43,8 +43,8 @@ Most of these aren't hard guidelines but recommendations for increasing the like
 - __Fun Outfits.__ These range from the kind of cutesy/promiscuous outfits to stylish/aesthetically pleasing outfits. (or both!)
 - __Affirming Body Types.__ I pride myself in being able to draw any body type. If you want your character(s) drawn chubbier, fatter, leaner, more masculine, more feminine, in any way underrepresented, please let me know!
 - __Dynamic Posing.__ I will actively try to make the composition of your artwork more visually interesting.
-- Graphic Design. I like a good excuse to use my fonts.
-- Bunnies. <3
+- __Graphic Design.__ I like a good excuse to use my fonts.
+- __Bunnies.__ <3
 
 ## What I'm Not Suited For:
 - __NSFW.__ This will result in an automatic rejection.
