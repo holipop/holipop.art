@@ -2,7 +2,7 @@
 {
     "date": "5/5/2025",
     "title": "Terms of Service",
-    "alt": "Information About Commissioning Holipop (That's Me)",
+    "alt": "",
     "tags": [],
     "dest": ""
 }

@@ -270,16 +270,12 @@ html {
     border-bottom: .1rem solid @blue-color-3;
     margin: .5rem 0;
 
-    font: 800 2.5rem "Atkinson Hyperlegible Mono";
+    font: 800 2.5rem "Atkinson Hyperlegible Next";
 }
 
-.article-header__date {
-    font: .9rem "Atkinson Hyperlegible Next";
-}
-
-.article-header__alt {
+.article-header__subtitle {
     font: italic .9rem "Atkinson Hyperlegible Next";
-    color: @blue-color-4;
+    color: @text-color-secondary;
 }
 
 .content {
@@ -289,12 +285,13 @@ html {
     font: 1rem "Atkinson Hyperlegible Next";
 
     h1, h2, h3, h4, h5, h6 {
-        font-family: "Atkinson Hyperlegible Mono";
         margin: .25rem 0;
+        font-weight: 600;
     }
 
     h1 {
         border-bottom: .1rem solid @blue-color-3;
+        padding: 0 .05rem;
     }
 
     li {
