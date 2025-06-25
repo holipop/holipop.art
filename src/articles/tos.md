@@ -51,3 +51,4 @@ Most of these aren't hard guidelines but recommendations for increasing the like
 - __Designing a Character.__ In the future, I might open up commissions specifically for reference sheets but designing a character is a completely different beast than illustrating an existing one and it usually requires 10x more revising, discussion, and time. For this reason, I will automatically reject designing entirely new characters.
 - __Humans.__
 - __Complex Backgrounds.__
+- __Car Crashes.__
