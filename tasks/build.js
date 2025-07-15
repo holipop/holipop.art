@@ -1,6 +1,6 @@
 import fs from "node:fs/promises"
-import showdown from "showdown"
 import Handlebars from "handlebars"
+import showdown from "showdown"
 
 const PROPERTIES_REGEX = /^-{3}\n({\n[\s\S]+})\n-{3}/gm
 
