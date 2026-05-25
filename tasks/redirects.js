@@ -2,8 +2,8 @@ import fs from "node:fs/promises"
 import Handlebars from "handlebars"
 
 const subdomains = [
-    ["comms", "https://forms.gle/HpgxCp17xgTKxsDz5"],
-    ["commissions", "https://forms.gle/HpgxCp17xgTKxsDz5"],
+    /* ["comms", "https://forms.gle/HpgxCp17xgTKxsDz5"],
+    ["commissions", "https://forms.gle/HpgxCp17xgTKxsDz5"], */
     ["discord", "https://discord.gg/QG7QGhDeq9"],
     ["bluesky", "https://bsky.app/profile/holipop.art"],
     ["bsky", "https://bsky.app/profile/holipop.art"],
