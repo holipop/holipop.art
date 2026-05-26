@@ -4,13 +4,21 @@
 		{
 			"type": "npm",
 			"script": "build",
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			},
+			"group": "build",
 			"problemMatcher": [],
 			"label": "npm: build",
 			"detail": "node tasks/build.js"
+		},
+		{
+			"type": "npm",
+			"script": "redirects",
+			"problemMatcher": [],
+			"label": "npm: redirects",
+			"detail": "node tasks/redirects.js",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
 		}
 	]
 }

@@ -2,8 +2,8 @@ import fs from "node:fs/promises"
 import Handlebars from "handlebars"
 
 const subdomains = [
-    /* ["comms", "https://forms.gle/HpgxCp17xgTKxsDz5"],
-    ["commissions", "https://forms.gle/HpgxCp17xgTKxsDz5"], */
+    ["comms", "https://forms.gle/HpgxCp17xgTKxsDz5"],
+    ["commissions", "https://forms.gle/HpgxCp17xgTKxsDz5"],
     ["discord", "https://discord.gg/QG7QGhDeq9"],
     ["bluesky", "https://bsky.app/profile/holipop.art"],
     ["bsky", "https://bsky.app/profile/holipop.art"],
@@ -13,26 +13,26 @@ const subdomains = [
     ["kofi", "https://ko-fi.com/holipop"],
 ]
 
+const input = /* html */`
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="shortcut icon" href="/src/assets/favicon.png">
+        <link rel="stylesheet" href="/src/style.css" />
+        <script type="module" src="/src/main.js"></script>
+
+        <meta http-equiv="refresh" content="0; url={{link}}">
+
+        <title>holipop.art &centerdot; Redirecting...</title>
+    </head>
+</html>`
+
 try {
-    const template = Handlebars.compile(
-        /* html */`
-        <!DOCTYPE html>
-        <html lang="en">
-            <head>
-                <meta charset="UTF-8" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-                <link rel="shortcut icon" href="/src/assets/favicon.png">
-                <link rel="stylesheet" href="/src/style.css" />
-                <script type="module" src="/src/main.js"></script>
-
-                <meta http-equiv="refresh" content="0; url={{link}}">
-
-                <title>holipop.art &centerdot; Redirecting...</title>
-            </head>
-        </html>`, 
-        { encoding: "utf-8" }
-    )
+    const template = Handlebars.compile(input, { encoding: "utf-8" })
+        
 
     for (const entry of subdomains) {
         const [name, link] = entry
