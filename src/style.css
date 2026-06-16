@@ -244,7 +244,7 @@
   font-family: 'Material Symbols Outlined';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v339/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOem.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v347/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOem.ttf) format('truetype');
 }
 .material-symbols-outlined {
   font-family: 'Material Symbols Outlined';
@@ -265,13 +265,13 @@
 @color-accent: hsl(178, 50%, 62%);
 @color-white: hsl(60, 31%, 94%); */
 @layer home, article;
+html {
+  background-color: hsl(10, 100%, 94%);
+  color: #dd585c;
+  font: 1rem "Atkinson Hyperlegible Next";
+}
 @layer home {
-  html {
-    background-color: hsl(10, 100%, 94%);
-    color: #dd585c;
-    font: 1rem "Atkinson Hyperlegible Next";
-  }
-  body {
+  .home-body {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -368,8 +368,9 @@
     }
   }
   .socials__link {
-    width: 1.25em;
-    height: 1.25em;
+    width: 1em;
+    height: 1em;
+    padding: 0.1rem;
     background-color: #dd585c;
     transition: background-color 0.05s;
   }
@@ -409,13 +410,25 @@
   .copyright {
     position: absolute;
     left: 0.75rem;
-    bottom: -1rem;
-    font-family: "Atkinson Hyperlegible Mono";
+    bottom: -0.75rem;
+    font: 0.75rem "Atkinson Hyperlegible Mono";
     color: #f59797;
   }
   @media screen and (max-width: 850px) {
     .copyright {
       bottom: -1.75rem;
+    }
+  }
+}
+@layer article {
+  .article {
+    width: 45rem;
+    margin: 5rem auto;
+    overflow-x: hidden;
+  }
+  @media screen and (max-width: 850px) {
+    .article {
+      width: 90%;
     }
   }
 }

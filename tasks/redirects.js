@@ -26,7 +26,7 @@ const input = /* html */`
 
         <meta http-equiv="refresh" content="0; url={{link}}">
 
-        <title>holipop.art &centerdot; Redirecting...</title>
+        <title>holipop.art · Redirecting...</title>
     </head>
 </html>`
 

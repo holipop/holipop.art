@@ -28,14 +28,14 @@
 
 @layer home, article;
 
-@layer home {
-    html {
-        background-color: @color-background;
-        color: @color-primary;
-        font: 1rem "Atkinson Hyperlegible Next";
-    }
+html {
+    background-color: @color-background;
+    color: @color-primary;
+    font: 1rem "Atkinson Hyperlegible Next";
+}
 
-    body {
+@layer home {
+    .home-body {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -136,8 +136,9 @@
         gap: .5rem;
     }
     .socials__link {
-        width: 1.25em;
-        height: 1.25em;
+        width: 1em;
+        height: 1em;
+        padding: .1rem;
         background-color: @color-primary;
 
         transition: background-color .05s;
@@ -156,9 +157,9 @@
     .copyright {
         position: absolute;
         left: .75rem;
-        bottom: -1rem;
+        bottom: -.75rem;
 
-        font-family: "Atkinson Hyperlegible Mono";
+        font: .75rem "Atkinson Hyperlegible Mono";
         color: @color-secondary;
 
         #mobile({
@@ -168,5 +169,13 @@
 }
 
 @layer article {
+    .article {
+        #mobile({
+            width: 90%;
+        });
 
+        width: 45rem;
+        margin: 5rem auto;
+        overflow-x: hidden;
+    }
 }
