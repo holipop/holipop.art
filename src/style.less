@@ -10,9 +10,38 @@
 @color-primary: hsl(357, 50%, 62%);
 @color-secondary: hsl(357, 56%, 77%);
 @color-accent: hsl(178, 50%, 62%);
-@color-white: hsl(60, 31%, 94%); */
+@color-white: hsl(60, 31%, 94%); 
+
+@red-color-0: #FFDCDC;
+@red-color-1: #E7A4A7;
+@red-color-2: #CE6C71;
+@red-color-3: #BD656C;
+@red-color-4: #A65B65;
+@red-color-5: #864D5B;
+@red-color-6: #5A3C4F;
+
+@cyan-color-0: #BFEAE8;
+@cyan-color-1: #6CCECB;
+@cyan-color-2: #5CA2A4;
+@cyan-color-3: #4D7C83;
+@cyan-color-4: #425F69;
+@cyan-color-5: #3C4E5A;
+
+@hazel-color-0: #F9C09C;
+@hazel-color-1: #F6B38B;
+@hazel-color-2: #E5A18D;
+@hazel-color-3: #C67A73;
+@hazel-color-4: #B76E70;
+
+@blue-color-0: #E0F5F4;
+@blue-color-1: #B7ECFF;
+@blue-color-2: #86DDEE;
+@blue-color-3: #62C6E3;
+@blue-color-4: #358EB5;
+@blue-color-5: #1A567D;*/
 
 @color-background: hsl(10, 100%, 94%);
+@color-text: #a65b65;
 @color-primary: #dd585c;
 @color-secondary: #f59797;
 @color-accent: #44b7ad;
@@ -177,5 +206,36 @@ html {
         width: 45rem;
         margin: 5rem auto;
         overflow-x: hidden;
+    }
+
+    .title {
+        margin: 0;
+
+        font: 4rem "Special Gothic Expanded One";
+        color: @color-accent;
+        line-height: .9;
+    }
+
+    .content {
+        color: @color-text;
+
+        h1, h2, h3, h4, h5, h6 {
+            margin: 1rem 0;
+        }
+        h1 {
+            font-family: "Special Gothic Expanded One";
+            color: @color-primary;
+        }
+        h2 {
+            font-family: "Special Gothic";
+        }
+        h3 {
+            font-family: "Special Gothic Condensed One";
+        }
+    }
+
+    .article-copyright {
+        font: .75rem "Atkinson Hyperlegible Mono";
+        color: @color-secondary;
     }
 }
