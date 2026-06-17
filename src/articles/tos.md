@@ -1,54 +1,94 @@
 ---
 {
-    "date": "5/5/2025",
     "title": "Terms of Service",
-    "alt": "",
     "tags": [],
-    "dest": "",
-    "image": "jumpsuit"
+    "dest": ""
 }
 ---
 
-*Last updated May, 2025. These are subject to change at any time.*
+*Last updated June 17, 2026. These are subject to change at any time.*
 
-# General Terms
-- __By commissioning me, you agree to these terms.__
-- __I reserve the right to turn down any commission.__
-- __You must be 18 or older to commission me.__
-- __Payments are done via PayPal.__
-- __Payments are up-front.__ However, I am always open to discuss payment plans if you'd prefer to pay in increments.
-- __You must have at least one visual reference for submission.__ Any relevant reference may do, even if it's just a stick figure thumbnail sketch. A picture is a lot easier to interpret than a lengthy description, but feel free to be descriptive.
-- __Complexity may affect price.__ Depending on the props, patterns, and/or background requested, there will be an additional charge on top of the base price.
-- __After payment is processed and the sketch is finished, refunds are not allowed. No exceptions.__
+By submitting a form, you (the Client) understand and agree to the following terms:
 
-# Distribution
-- You, the commissioner, are allowed to copy and redistribute your commission. This includes posting online or printing it for personal use. I cannot revoke these freedoms so long as you follow the terms of service.
-- __Attribution.__ You must give appropriate credit where ever your commission is shared/used (e.g. using it as a profile picture, posting it on social media).
-- __Non-Commercial.__ You cannot use your commission for any commercial purposes.
-- __No Derivatives.__ If you remix, modify, or transform the commission, you may not share the modified artwork. _This includes removing/blurring/cropping the watermark and signature._
+- You are at least 18 years old.
+- You must submit at least one visual reference.
+- Submission of a form does not guarantee a commission.
+- I reserve the right to turn down any form for any reason.
+- I retain ownership rights and distribution rights of the artwork.
+- You may post/use the artwork for personal use so long as I'm credited.
+- You may not use the artwork for any commercial purposes without my consent.
+- You may not remix, modify, or transform the artwork without my consent.
+- After payment is processed, no refunds.
+- Anyone who fails to follow these terms will be blacklisted.
 
-# Commission Process
-In general, it takes me about a 1 to 4 weeks to finish a commission depending on the complexity. Here's the general process:
+Additionally, some things to keep in mind:
 
-- If I've accepted your commission, I'll discuss with you on ideas for your piece and ask for clarification if needed. Before you pay, I'll do some thumbnail sketches just to make sure we're on the same page. If your commission seems to complex for the base price, this is the part where we'd negotiate.
-- Once I finish those sketches and you're happy with them, I'll send you an invoice on PayPal via email and start working when payment is completed. Be sure to let me know if I have full creative control on a piece or you'd like to keep an eye on the progress.
-- As I work, I'll be sending WIP pictures here and there so I can clarify or brainstorm with you on certain aspects. If anything needs changing, don't be afraid to let me know earlier than later!
-- Once it's done, I'll send you the full resolution image via Google Drive and you're free to use it where ever you like. Most of the time I post it on all of my socials and mention the client, but if you'd prefer to keep it private then do let me know.
+- Complexity may affect price depending on the props, patterns, and/or background requested.
+- You must have at least one visual reference for submission. For references of characters, please make sure they are either up-to-date or you give me a heads-up on any changes/inconsistencies in design.
+- Your references cannot be generated with stable diffusion or other forms of generating images.
+- Artwork will be at least 1920 x 1080 pixels in size. If you'd like me to draw for a specific resolution, let me know.
+- You are expected to be nice to work with. No pressure.
 
 # Preferences
-Most of these aren't hard guidelines but recommendations for increasing the likelihood of your commission getting accepted.
 
-## What I Like to Draw
-- __Pin-Ups!__
-- __Fun Outfits.__ These range from the kind of cutesy/promiscuous outfits to stylish/aesthetically pleasing outfits. (or both!)
-- __Affirming Body Types.__ I pride myself in being able to draw any body type. If you want your character(s) drawn chubbier, fatter, leaner, more masculine, more feminine, in any way underrepresented, please let me know!
-- __Dynamic Posing.__ I will actively try to make the composition of your artwork more visually interesting.
-- __Graphic Design.__ I like a good excuse to use my fonts.
-- __Bunnies.__ <3
+Most of these aren't hard guidelines by any means, but they will increase the likelihood of me picking your commission.
 
-## What I'm Not Suited For:
-- __NSFW.__ This will result in an automatic rejection.
-- __Designing a Character.__ In the future, I might open up commissions specifically for reference sheets but designing a character is a completely different beast than illustrating an existing one and it usually requires 10x more revising, discussion, and time. For this reason, I will automatically reject designing entirely new characters.
-- __Humans.__
-- __Complex Backgrounds.__
-- __Car Crashes.__
+## What I Like Drawing
+- Bunnies.
+- **Creative Freedom!** I work best when I'm allowed to let my creativity shine.
+- **Graphic Design!** I love love *love* doing bits of graphic design alongside my illustrations and I heavily prefer doing them over a diegetic background.
+- Pin-ups! I don't consider myself a suggestive artist but I really enjoy showing a character off.
+- Affirming body types. I pride myself in being able to draw anyone no matter your shape or size. If you want your character(s) drawn chubbier, fatter, leaner, more masculine, more feminine, in any way underrepresented, please let me know!
+- Fun outfits, ranging from cutesy/promiscuous outfits to stylish/aesthetically pleasing outfits. (or both!)
+- Dynamic posing. I will actively try to make the composition of your artwork more visually interesting.
+
+## What I Won't Draw
+- Humans.
+- Mecha.
+- Non-adult characters.
+- NSFW. (This also includes kink. Even if it isn't *explicitly* sexual in nature, I won't draw anything that I suspect you're intending to get your rocks off over.)
+- Designing a character, which is a completely different kind of work compared to illustration and requires 10x the amount of time, effort, and discussion. For this reason, I will automatically reject designing entirely new characters.
+- Car crashes.
+
+# Process
+
+Alongside doing freelance illustration, I have a day job which hinders my ability to complete commissions as fast as I'd like to. In general, it takes me 1 to 4 weeks to complete a commission depending on the complexity. Please understand that by submitting a form, I might only get around to your commission within 1 to 6 months.
+
+1. If I've accepted your commission, I will message you on Discord that you've been selected and you've been put in a queue.
+
+2. Once you're next in the queue, I'll discuss with you about your commission. This is where I like to talk about ideas and ask for clarification if necessary.
+
+3. Before payment, thumbnail sketches will be done to ensure that we're on the same page. If you're submitting a character I haven't drawn before, I tend to doodle them a bit to get familiar with how they look in my style. If your commission seems too complex for the base price, this is where an increased price is negotiated.
+
+4. If the thumbnail sketches look good, I'll submit an invoice to your email via PayPal. Payment is in USD and must be paid either fully upfront or half upfront, half midway through completion.
+
+5. As I work, I'll be sending WIP pictures here and there so I can clarify or brainstorm with you on certain aspects. If anything needs changing, <u>please let me know as early as possible</u>.
+
+6. Once the artwork is complete, I post it on my Patreon and a week or so later on my socials. __I kindly ask you to refrain from posting publicly until I have done so.__ If you'd like to be mentioned in these posts, feel free to let me know what socials you use. If you'd like to keep your commission private then I will abstain from posting it anywhere.
+
+## Edits and Revisions
+
+Adjustments are always welcome, however I will refuse major alterations past the lineart phase. Please keep major revisions for while I'm thumbnailing/sketching your commission.
+
+# FAQ
+
+### Do you draw NSFW art?
+No.
+
+### Do you draw humans?
+I do, but not for work.
+
+### Can I pay partially upfront and the rest later?
+Sure. You can pay half upfront and the rest as I'm working on your artwork.
+
+### When are you available to contact?
+My timezone is Central Standard Time (CST) UTC-5 but I'm a bit of a night owl, you can usually catch me late at night.
+
+### Can we use Bluesky/Tumblr/Telegram DMs?
+I'm willing to accomodate, though I much prefer using Discord. (Especially since Bluesky currently doesn't let you attach images.)
+
+### Can my references be AI generated?
+No.
+
+### Can I use the finished commission for generating images/training an image generator?
+No.

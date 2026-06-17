@@ -8,25 +8,15 @@
         <link rel="stylesheet" href="/src/style.css" />
         <script type="module" src="/src/main.js"></script>
 
-        <title>holipop.art &centerdot; {{title}}</title>
+        <title>holipop.art · {{title}}</title>
     </head>
     <body class="article">
-
-        <header class="article-header">
-            <h1 class="article-header__title">{{title}}</h1>
-            {{#if alt}}
-                <span class="article-header__subtitle">or, &quot;{{alt}}&quot;</span>
-                <span class="article-header__subtitle">&centerdot; </span>
-            {{/if}}
-            <span class="article-header__subtitle">{{date}}</span>
-        </header>
+        <h1 class="title">{{title}}</h1>
 
         <section class="content">
             {{{content}}}
         </section>
 
-        <span class="copyright">
-            holipop &copy; 2025
-        </span>
+        <span class="article-copyright">holipop © 2026</span>
     </body>
 </html>
